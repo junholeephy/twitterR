@@ -42,7 +42,7 @@ for ijk in range(DURATION):
         for word_soo in range(tot_word_soo):
             if soo[word_soo].lower() in pos_list:
                 P_count = P_count + 1
-            if soo[word_soo] in neg_list:
+            if soo[word_soo].lower() in neg_list:
                 N_count = N_count + 1
         outfile = open(OUTFILE_NAME,"a+")
         if(FIRST_LINE == 0 ):
