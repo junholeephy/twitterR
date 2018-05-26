@@ -9,7 +9,7 @@ BEVERAGE = "beer"
 DURATION = 1
 
 pos_file = "python_positive.txt"
-neg_file = "negative-words.txt"
+neg_file = "python_negative.txt"
 pos_list = str_list(pos_file)
 neg_list = str_list(neg_file)
 
